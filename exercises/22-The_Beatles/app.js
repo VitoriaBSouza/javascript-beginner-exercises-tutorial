@@ -1,15 +1,9 @@
 function sing() {
     let song = "";
-    for (let string = 1; string <= 11; string++){
-        if (string = 5 ) {
-            console.log("there will be an answer,");
-        }
-        else if (string = 11){
-            console.log("whisper words of wisdom, let it be");
-        }
-        else {
-            console.log("Let it be,");
-        }
+    for (let string = 0; string <= 10; string++){
+        if (string === 4 ) song += "there will be an answer, ";
+        else if (string === 10) song += "whisper words of wisdom, let it be";
+        else song += "let it be, ";
     }
     return song;
 }

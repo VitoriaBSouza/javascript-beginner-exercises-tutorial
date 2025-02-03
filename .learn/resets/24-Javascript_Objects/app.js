@@ -3,7 +3,7 @@ var person = {
     lastName: "Doe",
     age: 35,                     //Number
     gender: "male",
-    luckyNumbers: [7, 11, 13, 33], //Array
+    luckyNumbers: [7, 11, 13, 17], //Array
     significantOther: person2   //Object, yes, the same variable/object defined after
 };
 
@@ -27,7 +27,6 @@ function addAllFamilyLuckyNumbers(anArray){
 
   //To-Do: loop and add; consider nested loops
   //Hint: use the anArray variable to get all of the lucky numbers
-  
   
   return sumOfAllLuckyNumbers;
 }
